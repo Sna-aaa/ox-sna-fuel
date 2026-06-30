@@ -1,0 +1,5 @@
+-- Electric charge-over-time. Auto-applied at resource start (server/main.lua),
+-- same pattern as ox-sna-garages, so this file is reference only.
+-- Column lives on the owned-vehicle table (Bridge.vehicleTable):
+--   qbx/qb -> player_vehicles    esx -> owned_vehicles
+-- ALTER TABLE `player_vehicles` ADD COLUMN IF NOT EXISTS `fuel_datetimein` INT NULL;
